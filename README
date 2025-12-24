@@ -1,0 +1,47 @@
+Mini Snake Game
+
+A classic Snake game built using HTML, CSS, and JavaScript, rendered with PixiJS.  
+This is a frontend-only project that runs entirely in the browser with no backend or build step.
+
+
+Features
+
+- Grid-based Snake movement
+- Smooth rendering using PixiJS
+- Multiple fruit types (Apple, Banana, Orange)
+- Score tracking
+- Play / Restart button
+- Keyboard controls (Arrow keys)
+- Sound effects using the Web Audio API
+- Game Over overlay screen
+
+Tech Stack
+
+- HTML – Structure
+- CSS – Styling
+- JavaScript – Game logic
+- PixiJS (v7) – 2D rendering (loaded via CDN)
+- Web Audio API – Sound effects
+
+
+Project Structure
+
+mini-snake-game/
+│── index.html          # Main HTML file
+│── script.js           # Game logic
+│── Makefile            # Command to run the project
+│── README.md
+
+
+How to Run the Game
+
+Option 1: Open directly
+
+Open `index.html` in any modern browser.
+
+> Works fine for this project since it does not use backend APIs.
+
+Option 2: Using Makefile (recommended)
+
+```bash
+make run
